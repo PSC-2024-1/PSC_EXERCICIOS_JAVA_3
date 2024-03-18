@@ -31,6 +31,7 @@ EXERCÍCIOS DE JAVA - ESTRUTURA CONDICIONAL
 ```
 5. Escreva um programa em Java para determinar se o indivíduo está com um peso favorável. Essa situação é determinada através do IMC (Índice de Massa Corpórea), que é definida pela equação: IMC = pesoaltura2. A situação do peso é determinada pela tabela abaixo:
 <center>   
+	
 | Condição          | Situação       |
 |-------------------|----------------|
 | IMC abaixo de 20  | Abaixo do peso |
@@ -38,6 +39,7 @@ EXERCÍCIOS DE JAVA - ESTRUTURA CONDICIONAL
 | IMC de 25 a 30    | Sobrepeso      |
 | IMC de 30 a 40    | Obeso          |
 | IMC de 40 e acima | Obeso Mórbido  |
+
 </center>
 	
 6. Escreva um programa que peça ao usuário que insira um número de 1 a 4, correspondendo a cada estação do ano (1 para Primavera, 2 para Verão, 3 para Outono, e 4 para Inverno) para identificar a estação escolhida e imprimir uma mensagem característica daquela estação.
@@ -49,22 +51,26 @@ EXERCÍCIOS DE JAVA - ESTRUTURA CONDICIONAL
 8. Você está trabalhando em uma startup voltada para educação, e ficou responsável por criar a lógica de uma das atividades. Seu programa deve receber o valor dos três lados de um triângulo, e informar se ele é equilátero, isósceles ou escaleno. Restrição: Em um triângulo, o comprimento de um lado é sempre menor do que a soma dos outros dois!
 9. (Decom/UFOP - Adaptado) A permissão para uma pessoa votar ou não é determinado pela idade dela, conforme a tabela:
 <center>
+	
 | Idade (anos) | Classificação |
 |-------------------|----------------|
 |menor que 16 | Não é eleitor|
 |de 16 a 17 | Eleitor facultativo|
 |de 18 a 65 | Eleitor obrigatório|
 |acima de 65 | Eleitor facultativo|
+
 </center>
 Crie um programa capaz de ler a idade de uma pessoa e imprimir sua classificação eleitoral. Entrada: QUAL A IDADE DA PESSOA?: 17
 Saída: ELEITOR FACULTATIVO
 10. (Decom/UFOP) Na lojinha do Sr. Aboo, encontramos produtos de informática com preços especiais. Mas o Sr. Aboo segue uma receita de seus antepassados para acrescentar uma porcentagem sobre o valor de custo do produto, garantindo assim, a estabilidade financeira das futuras gerações de sua família. A tabela abaixo, feita pelo avô do Sr. Aboo, descreve o valor do lucro de um produto, considerando o valor de compra do mesmo.
 <center>
+	
 |Valor de Compra (R$)| Valor de Venda (R$)|
 |-------------------|----------------|
 |valor < 10.00| Lucro de 70 %|
 |10.00 <= valor < 30.00| Lucro de 50 %|
 |30.00 <= valor < 50.00| Lucro de 40 %|
 |valor >= 50.00| Lucro de 30 %|
+
 </center>
 Para auxiliar o Sr. Aboo, codifique um programa que leia o valor da compra de um produto de informática e imprima a porcentagem do lucro e o valor da venda.  O programa deve exibir a mensagem "Lojinha do Sr. Aboo" e em seguida solicitar o valor da compra com o fornecedor, e, em seguida, exibir qual será a porcentagem de lucro e o valor que o item deve ser colocado para venda.
